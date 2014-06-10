@@ -1,0 +1,44 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li><a ng-href="#">Home</a></li>
+    <li><a ng-href="#" ui-sref="state1">Login</a></li>
+    <li class="active"><a ng-href="#" ui-sref="state2">Sign Up</a></li>
+  </ul>
+  <h3 class="text-muted">Pecuniam</h3>
+</div>
+
+			<div class="form-modal">				
+
+				<div class="signup-form">
+					<form>
+						<div class="form-row">
+							<label for="signup-name-field">Name</label>
+							<input id="signup-name-field" name="name" type="text" placeholder="Johnny Sandwiches" ng-model="fullName"/>
+						</div>
+						<div class="form-row">
+							<label for="signup-email-field">Email</label>
+							<input id="signup-email-field" name="email" type="text" placeholder="johnny@sandwiches.com" ng-model="email"/>
+						</div>
+						<div class="form-row">
+							<label for="signup-username-field">Username</label>
+							<input id="signup-username-field" name="username" type="text" ng-model="usernameSign"/>
+							<label>&nbsp;</label>
+							<small>invest.com/<span id="url-preview"></span></small>
+						</div>
+						<div class="form-row">
+							<label for="signup-password-field">Choose Password</label>
+							<input id="signup-password-field" name="password" type="password" ng-model="passwordSign"/>
+						</div>
+						<div class="form-row">
+							<label for="signup-passwordAg-field">Password Again</label>
+							<input id="signup-passwordAg-field" name="passwordAg" type="password" ng-model="passwordAg"/>
+						</div>
+					</form>
+					<div class="form-feedback"></div>
+					<button class="btn-signup">Sign up</button>
+				</div>
+			</div>
+
+<div class="footer">
+  <p>Copyright: Ryan Davis 2014</p>
+</div>
