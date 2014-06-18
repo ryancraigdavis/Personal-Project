@@ -23,4 +23,9 @@ angular
       url: "/signup",
       templateUrl: "views/signup.html"
     })
+    .state('state3', {
+      url: "/display",
+      templateUrl: "views/display.html",
+      controller: 'MainCtrl'
+    })
 });

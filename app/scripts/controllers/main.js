@@ -2,9 +2,10 @@
 
 angular.module('investApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.finSearch = function(input){
+    	debugger;
+    	var joe = input;
+    	return joe;
+    };
+
   });
